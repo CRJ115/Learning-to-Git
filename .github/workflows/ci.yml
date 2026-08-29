@@ -1,10 +1,10 @@
 name: CI
 on:
-push:
+ push:
 jobs: 
-  build:
+ build:
   runs-on: Ubuntu-latest
   steps:
-   - name: Echo
-    run: echo "Hello"
+      - name: Echo
+        run: echo "Hello"
  
