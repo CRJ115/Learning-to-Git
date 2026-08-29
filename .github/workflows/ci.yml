@@ -1,3 +1,8 @@
-Name:ci
-on push
-jobs:  build  runs on:Ubuntu-latest
+Name:CI
+on:push
+jobs: 
+  build:
+  runs-on:Ubuntu-latest
+  steps:
+    Name: Echo
+    Run: Echo Hello
