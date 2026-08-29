@@ -1,0 +1,3 @@
+Name:ci
+on push
+jobs:  build  runs on:Ubuntu-latest
