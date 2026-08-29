@@ -5,5 +5,6 @@ jobs:
   build:
   runs-on: Ubuntu-latest
   steps:
-  - name: Echo
-     run: echo "Hello"
+   - name: Echo
+    run: echo "Hello"
+ 
